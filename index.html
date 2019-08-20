@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+  <head>
+    <meta charset="utf-8">
+    <title>Latitude Dashboard</title>
+    <link rel="stylesheet" href="assets/css/reset.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+  </head>
+
+  <body>
+    <div class="nav">
+      <div class="landing"><a href="index.html">Latitude</a></div>
+      <ul class="menu">
+        <li class="dropdown"><span>Plots &#9662;</span>
+          <ul class="weather-menu">
+            <li><a href="temp.html">Temperature</a></li>
+            <li><a href="humidity.html">Humidity</a></li>
+            <li><a href="cloudiness.html">Cloudiness</a></li>
+            <li><a href="wind-speed.html">Wind Speed</a></li>
+          </ul>
+        </li>
+        <li><a href="compare.html">Comparison</a></li>
+        <li><a href="raw-data.html">Data</a></li>
+      </ul>
+    </div>
+    <section class="main-display">
+      <div class="index-summary">
+        <h1>Summary: Latitude vs. X</h1>
+        <a href="https://matplotlib.org/" target="_blank"><img src="assets/images/matplotlib-logo.png" alt="matplotlib logo" id="mpl"></a>
+        <a href="https://openweathermap.org/api" target="_blank"><img src="assets/images/icon-openweathermap.png" alt="openweathermap logo" id="owm"></a>
+        <p class="intro">The purpose of <em>Latitude</em> was to analyze how weather changes as you get closer to the equator. To accomplish this analysis, data was pulled from the OpenWeatherMap API to assemble a dataset of more than 650 cities.</p>
+        <p>After assembling the dataset, various aspects of weather by latitude were plotted using Matplotib. Plotted evaluations were completed for temperature, humidity, cloudiness, and wind speed.</p>
+        <p>This site provides the visualizations created during the project with commentaries summarizing each analysis plot. The data used in plotting can be reviewed by visiting the Data page.</p>
+      </div>
+      <div class="viz-box">
+        <h1>Visualizations</h1>
+        <a href="temp.html"><img src="assets/images/PLOT1.png" alt="distribution of temperature as by distance from equator" id="plot1" style="border:0;"/></a>
+        <a href="humidity.html"><img src="assets/images/PLOT2.png" alt="distribution of humidity as by distance from equator" id="plot2" style="border:0;"/></a>
+        <a href="cloudiness.html"><img src="assets/images/PLOT3.png" alt="distribution of cloudiness as by distance from equator" id="plot3" style="border:0;"/></a>
+        <a href="wind-speed.html"><img src="assets/images/PLOT4.png" alt="distribution of wind speed as by distance from equator" id="plot4" style="border:0;"/></a>
+        <h4>Click any plot above for in depth analysis.</h4>
+      </div>
+    </section>
+  </body>
+
+</html>
