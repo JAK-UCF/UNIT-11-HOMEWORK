@@ -203,11 +203,12 @@ tbody tr td:first-of-type{
 }
 .menu li a {
   text-decoration: none;
-  color: #3EA694;
+  color: #FFFFFF;
 }
 .menu li a:visited {
-  color: #3EA694;
+  color: #FFFFFF;
 }
+.menu li a:active,
 .menu li a:visited:active {
   color: #511664;
 }
