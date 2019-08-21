@@ -217,7 +217,7 @@ tbody tr td:first-of-type{
 }
 .dropdown {
   position: relative;
-  color: #FFFFFF;
+  color: #3EA694;
 }
 .dropdown span {
   z-index: 2;
@@ -236,7 +236,7 @@ tbody tr td:first-of-type{
 }
 .weather-menu li {
   background-color: #3EA694;
-  /* color: #FFFFFF; */
+  color: #FFFFFF;
   list-style: none;
   padding: 10px 20px 10px 20px;
   border-bottom: 1px solid #88D2C6;
