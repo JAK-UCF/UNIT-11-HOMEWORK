@@ -205,6 +205,9 @@ tbody tr td:first-of-type{
   text-decoration: none;
   color: #3EA694;
 }
+.menu li a:hover {
+  font-style: italic;
+}
 .menu li a:visited {
   color: #3EA694;
 }
@@ -241,6 +244,9 @@ tbody tr td:first-of-type{
   padding: 10px 20px 10px 20px;
   border-bottom: 1px solid #88D2C6;
   box-shadow: 4px 2px 8px #88D2C6;
+}
+.weather-menu li a {
+  color: #FFFFFF;
 }
 .weather-menu li a:hover {
   font-style: italic;
