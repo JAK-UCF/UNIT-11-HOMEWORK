@@ -242,7 +242,6 @@ tbody tr td:first-of-type{
   border-bottom: 1px solid #88D2C6;
   box-shadow: 4px 2px 8px #88D2C6;
 }
-.menu li a:hover,
 .weather-menu li a:hover {
   font-style: italic;
   color: #FFFFFF;
